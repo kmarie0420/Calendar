@@ -26,6 +26,13 @@ THEN the saved events persist
 
 ## Description
 
+A Simple Calendar App that allows working individuals to save events to a working schedule. 
+A simple application that is for all times of the day.
+Effective, Organized, and Straightforward.
+The app provides the current date.
+The page corresponds to the current time by past, present, future; color coordinated.
+Formatted by HTML, CSS, Javascript, moment.js, Bootstrap, GoogleApi's, dayjs.js, and jQuery. 
+
 ## Images
 
 ![Alt text](images/05-third-party-apis-homework-demo.gif)

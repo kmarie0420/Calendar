@@ -16,7 +16,7 @@ $(document).ready(function () {
   });
 
   function timeTracker() {
-    //get current number of hours.
+    //get current hours.
     var timeNow = moment().hour();
 
     // put time blocks in a loop

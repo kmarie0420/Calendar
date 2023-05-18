@@ -29,12 +29,16 @@ THEN the saved events persist
 ## Images
 
 ![Alt text](images/05-third-party-apis-homework-demo.gif)
+![Alt text](images/2023-05-17%20(1).png)
+![Alt text](images/2023-05-17.png)
 
 ## Repository
 
 https://github.com/kmarie0420/Calendar
 
 ## Deployment
+
+https://kmarie0420.github.io/Calendar/
 
 ## Credits
 

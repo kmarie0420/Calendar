@@ -1,9 +1,11 @@
+<!-- default doctype -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- source links for stylesheets -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <link
       rel="stylesheet"
@@ -29,7 +31,9 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead display-4">May 17th 2023</p>
     </header>
+    <!-- time blocks all wrapped in container -->
     <div class="container">
+      <!-- all time blocks for any work day schedule -->
       <div id="hour-24" class="row time-block">
         <div class="col-2 col-md-1 hour" id="24">12AM</div>
         <textarea class="col-8 col-md-10 description" placeholder="Add event here"></textarea>
@@ -220,7 +224,7 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-
+<!-- jQuery source links also javascript -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"

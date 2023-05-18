@@ -39,15 +39,6 @@ console.log(blockTime)
 
   // Get item from local storage if any
   for(let i = 8; i <= 17; i++) {
-    $('#hour-' + i + ' textarea').val(JSON.parse(localStorage.getItem('hour-' + i)));
+    $(`#hour-` + i + ' textarea').val(JSON.parse(localStorage.getItem(`hour-` + i)));
   }
-  
-  // $("#hour10 .description").val(localStorage.getItem("hour9"));
-  // $("#hour11 .description").val(localStorage.getItem("hour10"));
-  // $("#hour12 .description").val(localStorage.getItem("hour11"));
-  // $("#hour13 .description").val(localStorage.getItem("hour12"));
-  // $("#hour14 .description").val(localStorage.getItem("hour13"));
-  // $("#hour15 .description").val(localStorage.getItem("hour14"));
-  // $("#hour16 .description").val(localStorage.getItem("hour15"));
-  // $("#hour17 .description").val(localStorage.getItem("hour16"));
 });

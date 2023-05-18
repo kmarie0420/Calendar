@@ -1,6 +1,6 @@
 # Calendar
-Simple Calendar Application
 
+Simple Calendar Application
 
 ## User Story
 
@@ -26,15 +26,16 @@ THEN the saved events persist
 
 ## Description
 
-
 ## Images
+
 ![Alt text](images/05-third-party-apis-homework-demo.gif)
 
-
-
 ## Repository
+
 https://github.com/kmarie0420/Calendar
 
 ## Deployment
 
 ## Credits
+
+https://stackoverflow.com/questions/44609306/moment-is-not-defined-using-moment-js
